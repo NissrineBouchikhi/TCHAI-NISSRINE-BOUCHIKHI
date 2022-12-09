@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Transactions</title>
+</head>
+<body>
+    La liste des transactions dans l'ordre :
+    {% for transaction in transactionsList%}
+    <div>{{transaction.userNom1}} a envoyé {{transaction.montant}} à {{transaction.userNom2}} le {{transaction.date}}</div>
+    {% endfor %}
+</body>
+</html>
