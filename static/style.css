@@ -1,0 +1,45 @@
+
+body{
+        background-color: lightslategray;
+        background-image: url("/static/images/background_3.gif");
+    }
+
+thead th:nth-child(1) {
+  width: 30%;
+}
+
+thead th:nth-child(2) {
+  width: 20%;
+}
+
+thead th:nth-child(3) {
+  width: 15%;
+}
+
+thead th:nth-child(4) {
+  width: 35%;
+}
+
+th, td {
+  padding: 20px;
+}
+
+#myInput {
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
+
+small {
+  color: white;
+  background-color: black;
+}
+
+h1, h2, h3, h4{
+  color: white;
+}
+
